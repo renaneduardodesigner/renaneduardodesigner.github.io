@@ -1,0 +1,150 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+/* Navigation styles */
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Form styles */
+.form-control {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none !important;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid black !important;
+}
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-dark {
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+}
+
+.btn-dark:hover {
+    background-color: #555;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: #fff;
+    font-size: 18px;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+/* Blog styles */
+.blog-post {
+    background-color: #fff;
+    margin-bottom: 40px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h2 {
+    margin-top: 0;
+    font-size: 28px;
+}
+
+.blog-post p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.blog-post .author {
+    font-style: italic;
+    color: #666;
+}
+
+.blog-post .date {
+    font-size: 14px;
+    color: #888;
+}
+
+#blog {
+    font-size: 1.5em;
+    margin-bottom: 60px;
+    background-color: #28a745;
+    padding: 20px;
+    color: rgba(222, 209, 209, 0.869);
+    list-style-position: inside;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    header h1 {
+        font-size: 30px;
+    }
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .btn {
+        padding: 10px 20px;
+    }
+    .form-control {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,1703 @@
+.cog-heading {
+
+}
+
+.cog-heading::before {
+
+}
+body,html {
+
+}
+.cog-abuse  {
+    display: none !important;
+}
+
+div.cog-row {
+    margin-bottom: 20px !important;
+}
+.cog-branding--minimal {
+    display: none !important;
+}
+.offcanvas {
+    background-color: rgb(9, 9, 9) !important;
+    transition: .9s ease !important;
+    width: 100% !important;
+    height: 100%;
+}
+.offcanvas h5 {
+    color: #ffff;
+    font-size: 1.3em;
+}
+.offcanvas .btn-close {
+    background-color: rgb(200, 20, 20);
+}
+.offcanvas li {
+    margin-bottom: 10px;
+}
+
+.offcanvas li a {
+    padding: 20px;
+    transition: .5s ease;
+}
+.offcanvas li a:hover {
+    color: rgba(209, 204, 204, 0.168);
+}
+.navbar {
+    padding: 15px 0 !important;
+    background-color: #000000;
+}
+
+.navbar h5 a {
+    font-size: 1.6em !important;
+}
+
+.navbar a {
+    position: relative;
+    text-decoration: none;
+    font-size: 1.3em;
+    margin-right: 40px;
+    color: white;
+    transition: .5s ease;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: -2px;
+    bottom: 0;
+    background-color: #49a9f3;
+    transition: width .5s ease;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+    border-bottom: 2px solid #e01010;
+}
+.navbar a:hover {
+   color:#e01010 ; 
+}
+
+.aboute-me {
+    position: relative;
+    padding: 95px 0;
+    margin: -20px 0;
+    color: white;
+    background-image: url(../assets/images/Design\ sem\ nome\ \(24\).png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 0 -40px;
+    z-index: -1;
+}
+.aboute-me h1{
+    font-size: 3.7em;
+    margin-bottom: -5px;
+} 
+.aboute-me p {
+    font-size: 1.5em;
+    margin-top: 10px;
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+.aboute-me a {
+    margin-right: 40px;
+}
+
+.aboute-me .btn-01 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 1.1em;
+    padding: 20px 60px;
+    font-weight: bold;
+    z-index: 1;
+    transition: .5s;
+    border: 1px solid #ff0000;
+}
+
+.aboute-me .btn-01::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    transition: .5s;
+    z-index: -1;
+}
+.aboute-me .btn-01:hover::before {
+    width: 0;
+}
+.aboute-me .btn-01:hover {
+    color: red;
+    background-color: transparent;
+    border: 1px solid #ff0000;
+}
+.aboute-me .btn-02 {
+    position: relative;
+    color: rgb(255, 0, 0);
+    font-size: 1.1em;
+    padding: 20px 60px;
+    font-weight: bold;
+    z-index: 1;
+    transition: .5s;
+    border: 1px solid #ff0000;
+}
+
+.aboute-me .btn-02::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: rgb(255, 0, 0);
+    transition: .5s;
+    z-index: -1;
+}
+.aboute-me .btn-02:hover::before {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ff0000;
+}
+.aboute-me .btn-02:hover {
+    color: rgb(0, 0, 0);
+    border: 1px solid #ff0000;
+}
+.aboute-me .text-animado span {
+    position: relative;
+    font-size: 3.5em;
+}
+.text-animado span::before {
+    content: '';
+    color: rgb(255, 0, 0);
+    animation: palavras 20s infinite;
+}
+.text-animado span::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -10px;
+    height: 100%;
+    width: calc(100% + 18px);
+  border-left: 1px solid #ff0000;
+  animation: cursor .8s infinite, digita 20s steps(15) infinite;
+  padding: 5px 0;
+  background-color: #000000;
+}
+
+
+@keyframes digita {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95% {
+        width: 0;
+    }
+
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+        width: calc(100% + 18px);     
+    }
+}
+@keyframes cursor {
+    0% {
+        border-left: 1px solid #000000;
+    }
+}
+
+
+@keyframes palavras {
+    0%,20% {
+        content: 'Frontend Developer';
+    }
+    21%,40% {
+        content: 'Backend Developer';
+    }
+    41%,60% {
+        content: 'Fullstack Developer';
+    }
+    61%,80% {
+        content: 'portfolio Experience';
+    }
+    81%,100% {
+        content: 'portfolio Experience';
+    }
+}
+
+
+.contact-page {
+    margin-bottom: 30px;
+}
+
+
+.contact-page .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Styling for each card */
+.card-01 {
+    flex: 1;
+padding: 10px;
+    border: 1px solid #0f1061;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 32px rgba(0, 0, 0, 0.213);
+    background-color: #fafafa;
+}
+
+.card-02 h3 {
+    margin-top: 40px;
+    color: #2F1C6A;
+    font-size: 1.8em;
+}
+.card-01 h3 {
+    margin-top: 15px;
+    color: #2F1C6A;
+    font-size: 1.8em;
+}
+
+.card-03 h3 {
+    margin-top: 15px;
+    color: #2F1C6A;
+    font-size: 1.8em;
+}
+.card-02 {
+    flex: 1; /* Each card takes equal space */
+padding: 10px;
+    border: 2px solid #0f1061;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 32px rgba(0, 0, 0, 0.213);
+    background-color: #fafafa;
+}
+
+.card-02 h4 {
+   font-size: 1.4em;
+   color: #2F1C6A;
+   font-weight: 400;
+}
+.card-02 h5 {
+    color: #EF5085;
+    font-weight: bold;
+}
+.card-01 h5 {
+    color: #5025D1;
+    font-weight: bold;
+}
+.card-01 h4 {
+    font-size: 1.4em;
+    color: #2F1C6A;
+    font-weight: 400;
+ }
+.card-01 h4 i {
+    font-size: 1.9em;
+font-weight: 500;
+}
+
+.card-03 h5 {
+    color: #5025D1;
+    font-weight: bold;
+}
+.card-03 h4 {
+    font-size: 1.4em;
+    color: #2F1C6A;
+    font-weight: 400;
+ }
+.card-03 h4 i {
+    font-size: 1.9em;
+font-weight: 500;
+}
+
+.card-02 h4 i {
+    font-size: 1.9em;
+font-weight: 500;
+}
+.btn-precos-02 {
+    background-color: #EF5085 !important;
+    color: white !important;
+    padding: 13px 70px !important;
+    font-weight: 700 !important;
+    font-size: 1em !important;
+    margin-top: 15px;
+     margin-bottom: 15px;
+     transition: .6s !important;
+}
+.end-infos-02 {
+    color: #727586;
+    font-size: .9em;
+}
+.btn-precos-02:hover {
+    background-color: #ca4471 !important; 
+}
+.p-02-contact {
+    color: #727586;
+    margin-bottom: 23px;
+}
+.p-info-contact-02 {
+    font-size: .9em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+    margin-top: 10px;
+color: #2F1C6A;
+}
+.p-02-contact span {
+    background-color: #FCE8EF !important;
+    padding: 8px 15px !important;
+    border-radius: 20px !important;
+    color: #D63163 !important;
+    font-weight: bold;
+    font-size: .9em !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+.infos-gasto-02 {
+    font-size: .9em;
+    color: #574988;
+}
+
+
+
+
+.btn-precos-01 {
+    background-color: #663CE5 !important;
+    color: white !important;
+    padding: 13px 70px !important;
+    font-weight: 700 !important;
+    font-size: 1em !important;
+    margin-top: 15px;
+     margin-bottom: 15px;
+     transition: .6s !important;
+}
+.btn-precos-01:hover {
+    background-color: #5331b9 !important;
+}
+
+.end-infos-01 {
+    color: #727586;
+    font-size: .9em;
+}
+.p-01-contact {
+    color: #727586;
+    margin-bottom: 23px;
+}
+.p-info-contact-01 {
+    font-size: .9em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+    margin-top: 10px;
+color: #2F1C6A;
+}
+
+.infos-gasto-01 {
+    font-size: .9em;
+    color: #574988;
+}
+
+
+
+
+
+.p-01-contact span {
+    background-color: #FCE8EF !important;
+    padding: 8px 15px !important;
+    border-radius: 20px !important;
+    color: #5025D1 !important;
+    font-weight: bold;
+    font-size: .9em !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+.p-03-contact span {
+    background-color: #FCE8EF !important;
+    padding: 8px 15px !important;
+    border-radius: 20px !important;
+    color: #5025D1 !important;
+    font-weight: bold;
+    font-size: .9em !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+.card-03 {
+    flex: 1; /* Each card takes equal space */
+padding: 10px;
+    border: 1px solid #0f1061;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 32px rgba(0, 0, 0, 0.213);
+    background-color: #fafafa;
+}
+
+.btn-precos-03 {
+    background-color: #663CE5 !important;
+    color: white !important;
+    padding: 13px 70px !important;
+    font-weight: 700 !important;
+    font-size: 1em !important;
+    margin-top: 15px;
+     margin-bottom: 15px;
+     transition: .6s !important;
+}
+.end-infos-03 {
+    color: #727586;
+    font-size: .9em;
+}
+.btn-precos-03:hover {
+    background-color: #5025D1 !important; 
+}
+.p-03-contact {
+    color: #727586;
+    margin-bottom: 23px;
+}
+.p-info-contact-03 {
+    font-size: .9em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+    margin-top: 10px;
+color: #2F1C6A;
+}
+
+.infos-gasto-03 {
+    font-size: .9em;
+    color: #574988;
+}
+
+
+
+.badge {
+    background-color: #FCE8EF !important;
+    padding: 15px 50px !important;
+    border-radius: 20px !important;
+    color: #EF5085 !important;
+    font-weight: bold;
+    font-size: 1.1em !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.biogra {
+    background-color: rgb(5, 5, 5);
+    margin: auto;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+.biogra h2 {
+    color: white;
+    margin-bottom: 40px;
+}
+.biogra .row-01 {
+    columns: 2;
+margin-bottom: 20px;
+}
+
+.biogra .row-01 img {
+    position: relative;
+    height: 55vh;
+    width: 100%;
+    border: 1px solid #EF5085;
+    border-radius: 5px;
+    transition: 1s ease;
+}
+.biogra .row-01 img:hover {
+    filter: brightness(0%);
+}
+.biogra .row-01 a {
+    position: relative;
+     display: flex;
+}
+.biogra .row-01 h3 {
+    position: absolute;
+top: 0;
+color: #c0c0c0;
+    font-size: 1.8em;
+    padding: 15px 20px;
+
+}
+
+
+.biogra .row-01 p {
+    position: absolute;
+top: 0;
+color: #c0c0c0;
+font-size: 1.1em;
+left: 0;
+    z-index: 1000;
+    padding: 70px 20px;
+}
+.biogra .row-02 {
+    columns: 2;
+    margin-bottom: 20px;
+}
+.biogra .row-02 img {
+    position: relative;
+    height: 55vh;
+    width: 100%;
+    border: 1px solid #663CE5;
+    border-radius: 5px;
+    transition: 1s ease;
+}
+.biogra .row-02 img:hover {
+    filter: brightness(0%);
+}
+
+.biogra .row-02 a {
+    position: relative;
+     display: flex;
+}
+.biogra .row-02 h3 {
+    position: absolute;
+top: 0;
+color: #c0c0c0;
+    font-size: 1.8em;
+    padding: 15px 20px;
+
+}
+
+.biogra .row-02 p {
+    position: absolute;
+top: 0;
+color: #c0c0c0;
+font-size: 1.1em;
+left: 0;
+    z-index: 1000;
+    padding: 70px 20px;
+}
+
+
+.me-infos {
+    background-color: #f6f4f4;
+    padding: 60px;
+text-align: center;
+}
+.me-infos img {
+   border-radius: 
+  20% 30% 40% 50% / 
+  20% 30% 60% 50%; /* Estilo de border-radius personalizado */
+border: 1px solid #5331b9;
+margin-bottom: 10px;
+}
+.home-sci {
+    padding: 20px 0 0 0;
+    justify-content: space-between;
+}
+
+.home-sci a{
+    position: relative;
+    display: inline-flex;
+    justify-content:center;
+    align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  border: .3rem solid #000000;
+  border-radius: 50%;
+  font-size: 20px;
+  margin-right: 30px;
+  z-index: 1;
+  fill: #000000 !important;
+  overflow: hidden;
+  transition: .5s;
+}
+.home-sci a:hover {
+    fill: #847f7f !important;
+}
+.home-sci a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    background-color: #000000;
+    transition:.5s;
+
+}
+
+  
+  
+.home-sci a:hover::before {
+    width: 100%;
+    fill: #0B0B0B !important;
+}
+.me-infos h1 {
+    color: rgb(0, 0, 0);
+}
+.me-infos p {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+.text-animado-02 span {
+    position: relative;
+    font-size: 2.9em;
+}
+.text-animado-02 span::before {
+    content: '';
+    color: rgb(0, 0, 0);
+    animation: palavras 20s infinite;
+}
+.text-animado-02 span::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -10px;
+    height: 100%;
+    width: calc(100% + 18px);
+  border-left: 1px solid #000000;
+  animation: cursor .8s infinite, digita 20s steps(15) infinite;
+  padding: 5px 0;
+  background-color: #F6F4F4;
+}
+
+@media (max-width: 768px) {
+    .col-01 {
+        margin-bottom: 40px;
+    }
+    .col-03 {
+        margin-bottom: 40px;
+    }
+    .biogra .row-01 img {
+        position: relative;
+     height: 70vh;
+        width: 100%;
+        border: 1px solid #663CE5;
+        border-radius: 5px;
+        transition: 1s ease;
+    }
+    .biogra .row-02 img {
+        position: relative;
+        height: 70vh;
+        width: 100%;
+        border: 1px solid #663CE5;
+        border-radius: 5px;
+        transition: 1s ease;
+    }
+    .contact-page .container {
+        display: block;
+        justify-content: center;
+        align-items: center;
+      margin-bottom: 40px;
+    }
+
+    .card-01 {
+        flex: 1;
+    padding: 10px;
+        border: 1px solid #0f1061;
+        border-radius: 5px;
+        text-align: center;
+        background-color: #fafafa;
+        margin-bottom: 50px;
+    }
+
+    .card-02 {
+        margin-bottom: 50px;
+    }
+
+    
+body,html {
+}
+
+.navbar {
+    padding: 15px 0 !important;
+    background-color: #000000;
+}
+
+.navbar h5 a {
+    font-size: 1.6em !important;
+}
+
+.navbar a {
+    position: relative;
+    text-decoration: none;
+    font-size: 1.3em;
+    margin-right: 40px;
+    color: white;
+    transition: .3s ease;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: -2px;
+    bottom: 0;
+    background-color: #49a9f3;
+    transition: width .3s ease;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+    border-bottom: 2px solid #e01010;
+}
+.aboute-me {
+    position: relative;
+    padding: 60px 0;
+    color: white;
+    z-index: -1;
+    background-image: url(../assets/images/Design\ sem\ nome\ \(24\).png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 0 -0px;
+    margin-bottom: 20px;
+}
+.aboute-me h1{
+    font-size: 2.5em;
+    margin-bottom: -5px;
+} 
+.aboute-me p {
+    font-size: 1em;
+    margin-top: 10px;
+    width: 90%;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.aboute-me a {
+    margin-right: 40px;
+}
+
+.aboute-me .btn-01 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 1.1em;
+    padding: 15px 45px;
+    font-weight: bold;
+    z-index: 1;
+    transition: .5s;
+    border: 1px solid #ff0000;
+}
+
+.aboute-me .btn-01::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    transition: .5s;
+    z-index: -1;
+}
+.aboute-me .btn-01:hover::before {
+    width: 0;
+}
+.aboute-me .btn-01:hover {
+    color: red;
+    background-color: transparent;
+    border: 1px solid #ff0000;
+}
+.aboute-me .btn-02 {
+    position: relative;
+    color: rgb(255, 0, 0);
+    font-size: 1.1em;
+    padding: 15px 45px;
+    font-weight: bold;
+    z-index: 1;
+    transition: .5s;
+    border: 1px solid #ff0000;
+}
+
+.aboute-me .btn-02::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: rgb(255, 0, 0);
+    transition: .5s;
+    z-index: -1;
+}
+.aboute-me .btn-02:hover::before {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ff0000;
+}
+.aboute-me .btn-02:hover {
+    color: rgb(0, 0, 0);
+    border: 1px solid #ff0000;
+}
+.aboute-me .text-animado span {
+    position: relative;
+    font-size: 1.9em;
+}
+.text-animado span::before {
+    content: '';
+    color: rgb(255, 0, 0);
+    animation: palavras 20s infinite;
+}
+.text-animado span::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -10px;
+    height: 100%;
+    width: calc(100% + 18px);
+  border-left: 1px solid #ff0000;
+  animation: cursor .8s infinite, digita 20s steps(15) infinite;
+  padding: 5px 0;
+  background-color: #000000;
+}
+
+
+@keyframes digita {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95% {
+        width: 0;
+    }
+
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+        width: calc(100% + 18px);     
+    }
+}
+@keyframes cursor {
+    0% {
+        border-left: 1px solid #000000;
+    }
+}
+
+
+@keyframes palavras {
+    0%,20% {
+        content: 'Frontend Developer';
+    }
+    21%,40% {
+        content: 'Backend Developer';
+    }
+    41%,60% {
+        content: 'Fullstack Developer';
+    }
+    61%,80% {
+        content: 'portfolio Experience';
+    }
+    81%,100% {
+        content: 'portfolio Experience';
+    }
+}
+
+.biogra .row-01 {
+    columns: 1;
+margin-bottom: 40px;
+}
+.biogra .row-02 {
+    columns: 1;
+
+}
+}
+
+@media (max-width: 437px) {
+    .contact-page .container {
+        display: block;
+        justify-content: center;
+        align-items: center;
+      margin-bottom: 40px;
+    }
+
+    .card-01 {
+        flex: 1;
+    padding: 10px;
+        border: 1px solid #0f1061;
+        border-radius: 5px;
+        text-align: center;
+        background-color: #fafafa;
+        margin-bottom: 50px;
+    }
+
+    .card-02 {
+        margin-bottom: 50px;
+    }
+
+    
+body,html {
+}
+
+.navbar {
+    padding: 15px 0 !important;
+    background-color: #000000;
+}
+
+.navbar h5 a {
+    font-size: 1.2em !important;
+}
+
+.navbar a {
+    position: relative;
+    text-decoration: none;
+    font-size: 1.3em;
+    margin-right: 40px;
+    color: white;
+    transition: .3s ease;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: -2px;
+    bottom: 0;
+    background-color: #49a9f3;
+    transition: width .3s ease;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+    border-bottom: 2px solid #e01010;
+}
+.aboute-me {
+    position: relative;
+    padding: 60px 0;
+    color: white;
+    z-index: -1;
+    background-image: url(../assets/images/Design\ sem\ nome\ \(24\).png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 0 -0px;
+    margin-bottom: 20px;
+}
+.aboute-me h1{
+    font-size: 2em;
+    margin-bottom: -5px;
+} 
+.aboute-me p {
+    font-size: .9em;
+    margin-top: 10px;
+    width: 90%;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.aboute-me a {
+    margin-right: 40px;
+}
+
+.aboute-me .btn-01 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 1.1em;
+    padding: 10px 30px;
+    font-weight: bold;
+    z-index: 1;
+    transition: .5s;
+    border: 1px solid #ff0000;
+}
+
+.aboute-me .btn-01::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    transition: .5s;
+    z-index: -1;
+}
+.aboute-me .btn-01:hover::before {
+    width: 0;
+}
+.aboute-me .btn-01:hover {
+    color: red;
+    background-color: transparent;
+    border: 1px solid #ff0000;
+}
+.aboute-me .btn-02 {
+    position: relative;
+    color: rgb(255, 0, 0);
+    font-size: 1.1em;
+    padding: 10px 30px;
+    font-weight: bold;
+    z-index: 1;
+    transition: .5s;
+    border: 1px solid #ff0000;
+}
+
+.aboute-me .btn-02::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: rgb(255, 0, 0);
+    transition: .5s;
+    z-index: -1;
+}
+.aboute-me .btn-02:hover::before {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ff0000;
+}
+.aboute-me .btn-02:hover {
+    color: rgb(0, 0, 0);
+    border: 1px solid #ff0000;
+}
+.aboute-me .text-animado span {
+    position: relative;
+    font-size: 1.8em;
+}
+.text-animado span::before {
+    content: '';
+    color: rgb(255, 0, 0);
+    animation: palavras 20s infinite;
+}
+.text-animado span::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -10px;
+    height: 100%;
+    width: calc(100% + 18px);
+  border-left: 1px solid #ff0000;
+  animation: cursor .8s infinite, digita 20s steps(15) infinite;
+  padding: 5px 0;
+  background-color: #000000;
+}
+
+
+@keyframes digita {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95% {
+        width: 0;
+    }
+
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+        width: calc(100% + 18px);     
+    }
+}
+@keyframes cursor {
+    0% {
+        border-left: 1px solid #000000;
+    }
+}
+
+
+@keyframes palavras {
+    0%,20% {
+        content: 'Frontend Developer';
+    }
+    21%,40% {
+        content: 'Backend Developer';
+    }
+    41%,60% {
+        content: 'Fullstack Developer';
+    }
+    61%,80% {
+        content: 'portfolio Experience';
+    }
+    81%,100% {
+        content: 'portfolio Experience';
+    }
+}
+}
+
+@media (max-width: 377px) { 
+    .contact-page .container {
+        display: block;
+        justify-content: center;
+        align-items: center;
+      margin-bottom: 40px;
+    }
+
+    .card-01 {
+        flex: 1;
+    padding: 10px;
+        border: 1px solid #0f1061;
+        border-radius: 5px;
+        text-align: center;
+        background-color: #fafafa;
+        margin-bottom: 50px;
+    }
+
+    .card-02 {
+        margin-bottom: 50px;
+    }
+
+    
+body,html {
+}
+
+.navbar {
+    padding: 15px 0 !important;
+    background-color: #000000;
+}
+
+.navbar h5 a {
+    font-size: 1.2em !important;
+}
+
+.navbar a {
+    position: relative;
+    text-decoration: none;
+    font-size: 1.3em;
+    margin-right: 40px;
+    color: white;
+    transition: .3s ease;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: -2px;
+    bottom: 0;
+    background-color: #49a9f3;
+    transition: width .3s ease;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+    border-bottom: 2px solid #e01010;
+}
+.aboute-me {
+    position: relative;
+    padding: 60px 0;
+    color: white;
+    z-index: -1;
+    background-image: url(../assets/images/Design\ sem\ nome\ \(24\).png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 0 -0px;
+    margin-bottom: 20px;
+}
+.aboute-me h1{
+    font-size: 2em;
+    margin-bottom: -5px;
+} 
+.aboute-me p {
+    font-size: .9em;
+    margin-top: 10px;
+    width: 90%;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.aboute-me a {
+    margin-right: 20px;
+}
+
+.aboute-me .btn-01 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 1.1em;
+    padding: 10px 17px;
+    font-weight: bold;
+    z-index: 1;
+    transition: .5s;
+    border: 1px solid #ff0000;
+}
+
+.aboute-me .btn-01::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    transition: .5s;
+    z-index: -1;
+}
+.aboute-me .btn-01:hover::before {
+    width: 0;
+}
+.aboute-me .btn-01:hover {
+    color: red;
+    background-color: transparent;
+    border: 1px solid #ff0000;
+}
+.aboute-me .btn-02 {
+    position: relative;
+    color: rgb(255, 0, 0);
+    font-size: 1.1em;
+    padding: 10px 17px;
+    font-weight: bold;
+    z-index: 1;
+    transition: .5s;
+    border: 1px solid #ff0000;
+}
+
+.aboute-me .btn-02::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: rgb(255, 0, 0);
+    transition: .5s;
+    z-index: -1;
+}
+.aboute-me .btn-02:hover::before {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ff0000;
+}
+.aboute-me .btn-02:hover {
+    color: rgb(0, 0, 0);
+    border: 1px solid #ff0000;
+}
+.aboute-me .text-animado span {
+    position: relative;
+    font-size: 1.8em;
+}
+.text-animado span::before {
+    content: '';
+    color: rgb(255, 0, 0);
+    animation: palavras 20s infinite;
+}
+.text-animado span::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -10px;
+    height: 100%;
+    width: calc(100% + 18px);
+  border-left: 1px solid #ff0000;
+  animation: cursor .8s infinite, digita 20s steps(15) infinite;
+  padding: 5px 0;
+  background-color: #000000;
+}
+
+
+@keyframes digita {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95% {
+        width: 0;
+    }
+
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+        width: calc(100% + 18px);     
+    }
+}
+@keyframes cursor {
+    0% {
+        border-left: 1px solid #000000;
+    }
+}
+
+
+@keyframes palavras {
+    0%,20% {
+        content: 'Frontend Developer';
+    }
+    21%,40% {
+        content: 'Backend Developer';
+    }
+    41%,60% {
+        content: 'Fullstack Developer';
+    }
+    61%,80% {
+        content: 'portfolio Experience';
+    }
+    81%,100% {
+        content: 'portfolio Experience';
+    }
+}
+
+}
+
+
+@media (max-width: 338px) { 
+    .contact-page .container {
+        display: block;
+        justify-content: center;
+        align-items: center;
+      margin-bottom: 40px;
+    }
+
+    .card-01 {
+        flex: 1;
+    padding: 10px;
+        border: 1px solid #0f1061;
+        border-radius: 5px;
+        text-align: center;
+        background-color: #fafafa;
+        margin-bottom: 50px;
+    }
+
+    .card-02 {
+        margin-bottom: 50px;
+    }
+
+    
+body,html {
+}
+
+.navbar {
+    padding: 15px 0 !important;
+    background-color: #000000;
+}
+
+.navbar h5 a {
+    font-size: 1.2em !important;
+}
+
+.navbar a {
+    position: relative;
+    text-decoration: none;
+    font-size: 1.3em;
+    margin-right: 40px;
+    color: white;
+    transition: .3s ease;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: -2px;
+    bottom: 0;
+    background-color: #49a9f3;
+    transition: width .3s ease;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+    border-bottom: 2px solid #e01010;
+}
+.aboute-me {
+    position: relative;
+    padding: 60px 0;
+    color: white;
+    z-index: -1;
+    background-image: url(../assets/images/Design\ sem\ nome\ \(24\).png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 0 -0px;
+    margin-bottom: 20px;
+}
+.aboute-me h1{
+    font-size: 1.5em !important;
+    margin-bottom: -2px !important;
+} 
+.aboute-me p {
+    font-size: .8em;
+    margin-top: 10px;
+    width: 90%;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.aboute-me a {
+    margin-right: 40px;
+}
+
+.aboute-me .btn-01 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 1.1em;
+    padding: 8px 8px !important;  
+  font-weight: bold;
+    z-index: 1;
+    transition: .5s;
+    border: 1px solid #ff0000;
+}
+
+.aboute-me .btn-01::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    transition: .5s;
+    z-index: -1;
+}
+.aboute-me .btn-01:hover::before {
+    width: 0;
+}
+.aboute-me .btn-01:hover {
+    color: red;
+    background-color: transparent;
+    border: 1px solid #ff0000;
+}
+.aboute-me .btn-02 {
+    position: relative;
+    color: rgb(255, 0, 0);
+    font-size: 1.1em;
+    padding: 8px 8px !important;
+    font-weight: bold;
+    z-index: 1;
+    transition: .5s;
+    border: 1px solid #ff0000;
+}
+
+.aboute-me .btn-02::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: rgb(255, 0, 0);
+    transition: .5s;
+    z-index: -1;
+}
+.aboute-me .btn-02:hover::before {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ff0000;
+}
+.aboute-me .btn-02:hover {
+    color: rgb(0, 0, 0);
+    border: 1px solid #ff0000;
+}
+.aboute-me .text-animado span {
+    position: relative;
+    font-size: 1.5em !important;
+}
+.text-animado span::before {
+    content: '';
+    color: rgb(255, 0, 0);
+    animation: palavras 20s infinite;
+}
+.text-animado span::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -10px;
+    height: 100%;
+    width: calc(100% + 18px);
+  border-left: 1px solid #ff0000;
+  animation: cursor .8s infinite, digita 20s steps(15) infinite;
+  padding: 5px 0;
+  background-color: #000000;
+}
+
+
+@keyframes digita {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95% {
+        width: 0;
+    }
+
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+        width: calc(100% + 18px);     
+    }
+}
+@keyframes cursor {
+    0% {
+        border-left: 1px solid #000000;
+    }
+}
+
+
+@keyframes palavras {
+    0%,20% {
+        content: 'Frontend Developer';
+    }
+    21%,40% {
+        content: 'Backend Developer';
+    }
+    41%,60% {
+        content: 'Fullstack Developer';
+    }
+    61%,80% {
+        content: 'portfolio Experience';
+    }
+    81%,100% {
+        content: 'portfolio Experience';
+    }
+}
+  
+}
+
+@media (max-width: 338px) {
+    .contact-page .container {
+        display: block;
+        justify-content: center;
+        align-items: center;
+      margin-bottom: 40px;
+    }
+
+    .card-01 {
+        flex: 1;
+    padding: 10px;
+        border: 1px solid #0f1061;
+        border-radius: 5px;
+        text-align: center;
+        background-color: #fafafa;
+        margin-bottom: 50px;
+    }
+
+    .card-02 {
+        margin-bottom: 50px;
+    }
+
+    
+body,html {
+}
+
+.navbar {
+    padding: 15px 0 !important;
+    background-color: #000000;
+}
+
+.navbar h5 a {
+    font-size: 1.2em !important;
+}
+
+.navbar a {
+    position: relative;
+    text-decoration: none;
+    font-size: 1.3em;
+    margin-right: 40px;
+    color: white;
+    transition: .3s ease;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: -2px;
+    bottom: 0;
+    background-color: #49a9f3;
+    transition: width .3s ease;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+    border-bottom: 2px solid #e01010;
+}
+.aboute-me {
+    position: relative;
+    padding: 60px 0;
+    color: white;
+    z-index: -1;
+    background-image: url(../assets/images/Design\ sem\ nome\ \(24\).png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 0 -0px;
+    margin-bottom: 20px;
+}
+.aboute-me h1{
+    font-size: 1.8em;
+    margin-bottom: -5px;
+} 
+.aboute-me p {
+    font-size: .8em;
+    margin-top: 10px;
+    width: 90%;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.aboute-me a {
+    margin-right: 20px;
+}
+
+.aboute-me .btn-01 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 1.1em;
+    padding: 8px 18px !important;
+    font-weight: bold;
+    z-index: 1;
+    transition: .5s;
+    border: 1px solid #ff0000;
+}
+
+.aboute-me .btn-01::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    transition: .5s;
+    z-index: -1;
+}
+.aboute-me .btn-01:hover::before {
+    width: 0;
+}
+.aboute-me .btn-01:hover {
+    color: red;
+    background-color: transparent;
+    border: 1px solid #ff0000;
+}
+.aboute-me .btn-02 {
+    position: relative;
+    color: rgb(255, 0, 0);
+    font-size: 1.1em;
+    padding: 8px 18px !important;
+    font-weight: bold;
+    z-index: 1;
+    transition: .5s;
+    border: 1px solid #ff0000;
+}
+
+.aboute-me .btn-02::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: rgb(255, 0, 0);
+    transition: .5s;
+    z-index: -1;
+}
+.aboute-me .btn-02:hover::before {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ff0000;
+}
+.aboute-me .btn-02:hover {
+    color: rgb(0, 0, 0);
+    border: 1px solid #ff0000;
+}
+.aboute-me .text-animado span {
+    position: relative;
+    font-size: 1.7em;
+}
+.text-animado span::before {
+    content: '';
+    color: rgb(255, 0, 0);
+    animation: palavras 20s infinite;
+}
+.text-animado span::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -10px;
+    height: 100%;
+    width: calc(100% + 18px);
+  border-left: 1px solid #ff0000;
+  animation: cursor .8s infinite, digita 20s steps(15) infinite;
+  padding: 5px 0;
+  background-color: #000000;
+}
+
+
+@keyframes digita {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95% {
+        width: 0;
+    }
+
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+        width: calc(100% + 18px);     
+    }
+}
+@keyframes cursor {
+    0% {
+        border-left: 1px solid #000000;
+    }
+}
+
+
+@keyframes palavras {
+    0%,20% {
+        content: 'Frontend Developer';
+    }
+    21%,40% {
+        content: 'Backend Developer';
+    }
+    41%,60% {
+        content: 'Fullstack Developer';
+    }
+    61%,80% {
+        content: 'portfolio Experience';
+    }
+    81%,100% {
+        content: 'portfolio Experience';
+    }
+}
+ 
+}
